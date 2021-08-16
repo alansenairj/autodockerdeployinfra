@@ -1,0 +1,17 @@
+{
+  "name": "careerpath",
+  "version": "0.0.1",
+  "description": "This help you to frame your career path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Rajee & Pravin",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}

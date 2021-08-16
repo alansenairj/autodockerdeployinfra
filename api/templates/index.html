@@ -1,0 +1,209 @@
+<html language="pt-BR" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark"><head>
+<title>Aulas IaC</title>
+<meta charset="UTF-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link type="text/css" rel="stylesheet" href="chrome-extension://kmmnaeamjfdnbhljpedgfchjbkbomahp/templates/newsletter.css">
+<style>   
+body {background-color:  #0d1117;
+color: #c9d1d9;
+}
+</style>
+</head>
+<body style="word-wrap: break-word;">
+
+
+
+
+<h1>market container</h1>
+
+
+<h2>Alan 23-6</h2>
+<h3>[709] Infraestrutura como código</h3>
+<p><strong>Created:</strong> 16/06/2021 07:29:39</p>
+<p><strong>Created by:</strong> </p>
+<h3>[717] GIT Vagrant</h3>
+<p><strong>Created:</strong> 16/06/2021 07:29:40</p>
+<p><strong>Created by:</strong> </p>
+<p><strong>Description:</strong></p>
+<p>Repositório dos arquivos do Vagrant
+https://github.com/LeonardoDG2084/iaac_0506.git</p>
+<h3>[714] GIT</h3>
+<p><strong>Created:</strong> 16/06/2021 07:29:40</p>
+<p><strong>Created by:</strong> </p>
+<p><strong>Description:</strong></p>
+<h1>Comandos Básicos do GIT</h1>
+<h2>Iniciar um repositório</h2>
+<p>Esse comando irá transformar um diretório simples em um repositório git.</p>
+<p><code>$ git init</code></p>
+<h2>Git config</h2>
+<p>É possível alterar algumas configurações do git como o editor, paginador, usuário, email, seguem alguns exemplos:</p>
+<p>Para alterar as configurações para todos os repositórios utilizar a flag <code>--global</code> após a opção config</p>
+<p>Mudando o paginador do comando "<strong>less</strong>" para o comando "<strong>cat</strong>"
+<code>$ git config core-pager cat</code></p>
+<p>Mudando as informações de usuário</p>
+<p><code>$ git config user.name "Leonardo" 
+$ git config user.email "leonardodg2084@gmail.com"</code></p>
+<h2>Git Alias</h2>
+<p>É possível criar alias nos comando do git para facilitar a execução.</p>
+<p><code>git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+git config --global alias.type 'cat-file -t'
+git config --global alias.dump 'cat-file -p'</code></p>
+<h2>Git Remoto (Origin)</h2>
+<p>O Origin ou remoto é o local (github, bitbucket, gitlab) onde se encontra o repositório esse local é configurado no momento do clone de um repositório remoto.</p>
+<p>Para visualizar informações sobre a "origin", como local de origem,  branches, etc..</p>
+<p><code>$ git remote show origin</code></p>
+<p>Adicionando um repositório remoto em um repositório inicializado localmente.</p>
+<p>Caso você tenha já um git local e a sua branch principal não se chamar "main" (novo padrão), execute o comando abaixo:</p>
+<p><code>$ git branch -m main</code></p>
+<p><code>$ git remote add origin &lt;url&gt; 
+$ git branch -M main
+$ git push -u origin main</code></p>
+<p>Para guardar as suas credenciais executar o comando abaixo:</p>
+<p><code>$ git config --global credential.helper cache</code></p>
+<p>Caso você queria adicionar apenas por algum tempo</p>
+<p><code>$ git config --global credential.helper cache '--timeout=300'</code></p>
+<h2>Status atual das alterações</h2>
+<p>Exibe o status atual dos arquivos, exibe se os arquivos estão pendentes em relação a commits</p>
+<p><code>$ git status</code></p>
+<h2>Criando branches</h2>
+<p>As branches servem como linhas paralelas do tempo no projeto, as branches podem coexistir e elas tem papeis distintos dentro do projeto.</p>
+<p><code>$ git checkout -b &lt;nome_da_branch&gt;</code></p>
+<h2>Adicionando arquivos ao git</h2>
+<p>Adicionar os comandos sob o gerenciamento do git</p>
+<p><code>$ git add &lt;arquivo&gt; ou .</code> </p>
+<h2>Removendo arquivo do git</h2>
+<p>Para remover os arquivos do git e sistema operacional execute o comando abaixo:</p>
+<p><code>$ git rm -f &lt;arquivo&gt;</code></p>
+<h2>Removendo os arquivos apenas do gerenciamento do git</h2>
+<p><code>$git rm --cached &lt;arquivo&gt;</code></p>
+<h2>Comitando as alterações</h2>
+<p>"Salvar" as alterações feitas definindo um comentário ao conjunto de alterações. </p>
+<p><code>$ git commit -m "Comentario"</code></p>
+<h2>Enviando os arquivos para o upstream (git remoto/github)</h2>
+<p><code>$ git push origin &lt;branch&gt;</code></p>
+<h2>Atualizando a branch atual sem efetuar o merge</h2>
+<p><code>$ git fetch 
+$ git log &lt;branch_local&gt; &lt;origin/branch&gt;  ou git hist --all
+$ git diff &lt;branch_local&gt; &lt;origin/branch&gt;
+$ git merge origin/&lt;branch&gt;</code>
+Exemplo:</p>
+<p>Caso queria saber se houve e quais foram mudanças feitas na branch remota origin/aula02 em relação a sua local sem mergea-las com a sua branch local</p>
+<p><code>$ git fetch origin aula02
+$ git log aula02 origin/aula02
+$ git diff aula02 origin/aula02
+$ git merge origin/aula02</code></p>
+<h2>Atualizando a branch atual</h2>
+<p>O comando abaixo é exatamente a junção do comando fetch mais o comando </p>
+<p><code>$ git pull origin &lt;branch&gt;</code></p>
+<h2>Visualizando o histórico dos commits</h2>
+<p><code>$ git log --pretty=oneline</code></p>
+<p><code>git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short</code></p>
+<h2>Visualizando mudanças dos commits</h2>
+<p><code>$ git diff &lt;commit_antigo&gt; &lt;commit_novo&gt;</code></p>
+<h2>Descartando alterações feitas.</h2>
+<p>Há cenários que queremos descartar as alterações feitas e deixar o estado da branch atual como a remota (origin) esse cenário se aplica quando ainda não foi executado o commit.</p>
+<p><code>$ git reset HEAD &lt;arquivo&gt;</code></p>
+<p>Se você se arrependeu de um commit também é possivel remove-lo utilizando o comando abaixo:</p>
+<p><code>$ git reset HEAD~1</code></p>
+<p>Caso um commit já foi enviado ao git remoto (origin) podemos remove-lo com o seguinte comando:</p>
+<p><code>$ git reset HEAD~1</code>
+<code>$ git push -f origin aula02</code></p>
+<h2>Revertendo um commit</h2>
+<p>Após feitas as alterações e executado o commit, é possível reverter o commit, um commit revertido nada mais é que um commit novo removendo as alterações do commit anterior.</p>
+<p><code>$ git revert HEAD ou --no-edit</code></p>
+<h2>Atualizando um commit</h2>
+<p>Para evitar a criação de micro-commits até o momento do push é possível atualizar o mesmo commit através:</p>
+<p><code>$ git commit --amend -m "Nova descrição de commit"</code></p>
+<h2>Movendo arquivos dentro do git</h2>
+<p>Há casos que seja necessario mover arquivos gerenciados pelo git, é possivel utilizar os comandos do linux, mas você vai precisar adicionar os arquivos, etc..., há um jeito melhor de mover arquivos.</p>
+<p><code>$ mkdir template
+$ git mv index.html template
+$ git status</code></p>
+<h2>Trocando entre as branches</h2>
+<p>Para mover entre as branches basta:</p>
+<p><code>$ git checkout &lt;nome_da_branch&gt;</code></p>
+<h2>Stashing suas alterações</h2>
+<p>A caso que as alterações são feitas em branches erradas ou simplesmente você gostaria de voltar ao estado antes das alterações</p>
+<p>Movendo as alterações feitas de uma branch para outra.</p>
+<p>Adiciona as mudanças e cria uma area de stash</p>
+<p><code>$ git stash</code></p>
+<p>Lista o conteudo do stash</p>
+<p><code>$ git stash list</code></p>
+<p>Mostra o conteudo do stash</p>
+<p><code>$ git stash show &lt;nome_do_stash&gt;</code></p>
+<p>Aplica uma mudança do stash na branch atual mas não remove-a do stash</p>
+<p><code>$ git stash apply</code></p>
+<p>Aplica uma mudança que esta no stash e remove dessa area</p>
+<p><code>$ git stash pop</code></p>
+<p><code>`$ git add &lt;arquivo&gt;`
+$ git stash
+$ git stash list
+$ git checkout &lt;novabranch&gt;
+$ git stash apply</code></p>
+<h2>Git tag</h2>
+<p>O git tag serve para dar um rotulo aos commits, essas tags geralmente representam versões ou grandes marcos no projeto</p>
+<p><code>$ git tag -a &lt;versao&gt; -m &lt;comentario&gt;
+$ git push origin &lt;branch&gt; --tags</code></p>
+<h2>Consolidando commits (Squash)</h2>
+<p><img alt="" src="https://trello-attachments.s3.amazonaws.com/5cfee2510563e94d40f9b13f/601eaeb4f3091420ab5af63e/3672aec25e5a6229e5648297e2bcbd20/image.png"></p>
+<p>Há momentos que criamos muitos commits e esses commits apenas servem para o nosso fluxo de trabalho e para nós localizarmos, e não dizem nada de relevante ou servem caso tenha algum momento que precise reverter algum commit. Para isso temos o rebase, o rebase nada mais é do que consolidar todos os commite desejados a apenas 1.</p>
+<p>Histórico de commits</p>
+<p><img alt="" src="https://trello-attachments.s3.amazonaws.com/601eaeb4f3091420ab5af63e/514x110/4ee4df4ae1a109a2340f174093aae4d4/image.png"></p>
+<p><code>$ git rebase -i 187f8c5</code></p>
+<p>No editor de texto mudar a partir da 2 linha a palavra <em>pick</em> para <em>squash</em>, você esta consolidando todos os seus commits ao primeiro commit.</p>
+<p>Na segunda etapa você irá escolher o nome do commit, basta remover todas as linhas <strong>não comentadas</strong> e adicionar a nova linha</p>
+<p>Ao sair você voltará ao prompt </p>
+<p><img alt="" src="https://trello-attachments.s3.amazonaws.com/601eaeb4f3091420ab5af63e/437x130/e86aa8f9813ac6352d1188a2dbad45c9/image.png"></p>
+<p>Histórico após o rebase</p>
+<p><img alt="" src="https://trello-attachments.s3.amazonaws.com/601eaeb4f3091420ab5af63e/484x141/42f2cdaf664a3c50bca5209a7321f6f8/image.png"></p>
+<p>Forçando o push </p>
+<p><img alt="" src="https://trello-attachments.s3.amazonaws.com/601eaeb4f3091420ab5af63e/507x191/44a542fb3220da1eb611963b72768456/image.png"></p>
+<p>Histórico após o push para o repositório remoto.</p>
+<p><img alt="" src="https://trello-attachments.s3.amazonaws.com/601eaeb4f3091420ab5af63e/594x80/eb35ba539662d5e733533a64833f31db/image.png"></p>
+<h3>[707] Vagrant - Sheet Cheat</h3>
+<p><strong>Created:</strong> 16/06/2021 07:29:39</p>
+<p><strong>Created by:</strong> </p>
+<p><strong>Description:</strong></p>
+<h1>Introdução</h1>
+<p>O Vagrant é uma ferramenta que permite que criemos rapidamente ambientes virtuais para fazermos testes, desenvolvimento ou provisionamento de ambientes utilizando as soluções de virtualização mais comuns como o Virtualbox e o VMWare.</p>
+<p>Baixe o Pacote do Vagrant conforme seu sistema operacional:</p>
+<p>https://www.vagrantup.com/downloads.html</p>
+<p>Para validar a instalação, abra um Power Shell / Terminal e execute o comando abaixo:
+<code>$ vagrant</code>
+Deverá aparecer uma saída igual a imagem em anexo.
+<img alt="" src="https://trello-attachments.s3.amazonaws.com/601eac9fa9f84085f77846c1/987x351/bd55868c87d780e606bd794f4b414fe5/image.png"></p>
+<p>Vamos agora entender os principais comandos do Vagrant para gerenciar nossas máquinas virtuais.</p>
+<hr>
+<p><strong>1)</strong> Você pode desligar sua máquina virtual a qualquer momento com o comando:</p>
+<p><code>$ vagrant halt</code></p>
+<p><strong>2)</strong> Para ligar novamente a máquina virtual basta executar:</p>
+<p><code>$ vagrant up</code></p>
+<p><strong>3)</strong> Terá situações que você vai querer deletar sua máquina virtual. </p>
+<p><code>$ vagrant destroy</code></p>
+<hr>
+<p><strong>PS: Caso tenha destruído a máquina virtual, precisará executar novamente "vagrant up"</strong> </p>
+<hr>
+<p><strong>4)</strong> Toda box (imagem) que você baixa fica armazenada em seu computador. Haverá situações que você irá querer remover boxes que você não irá mais usar. Para isso basta usar a opção remove. </p>
+<p>Vamos primeiro baixar uma nova box e na sequência removê-la:</p>
+<p><code>$ vagrant box list</code></p>
+<p><code>$ vagrant box add ubuntu/focal64</code></p>
+<p><code>$ vagrant box list</code></p>
+<p><code>$ vagrant box remove ubuntu/focal64</code></p>
+<p><code>$ vagrant box list</code></p>
+<p><strong>5)</strong> Toda vez que mexemos no arquivo de configuração do Vagrant, temos que dar um reload para aplicar as alterações. Por exemplo, ao adicionar uma nova linha no arquivo que irá definir o hostname da máquina Virtual e veremos que ele só irá aplicar se executar reload:</p>
+<p><code>$ vagrant validate</code>
+<code>$ vagrant provision</code>
+<code>$ vagrant reload</code></p>
+<hr>
+<p>Arquivo: iaac.sh</p>
+
+
+
+</body></html>

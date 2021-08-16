@@ -1,0 +1,272 @@
+[
+  {
+    "packageType": "Machine Learning",
+    "coursecode":"1",
+    "title": "Equip yourself with Descriptive and Inferential Statistics for Machine Learning",
+    "description": "Inferential statistics are a set of technologies  used for inferring mathematical properties of an unmeasured population based on the mathematical properties of a sample. The adequacy and appropriateness of using inferential statistics is dependent, at least in part, on the mathematical characteristics of the sample, in part on the quality of the methods used.",
+    "difficulty": "Intermediate",
+    "price": "45",
+    "Author": " Ahay Dol"
+  },
+  {
+    "packageType": "Machine Learning",
+    "coursecode":"2",
+    "title": "Baby Steps with Deep learning for ML",
+    "description": "In deep learning, each level learns to transform its input data into a slightly more abstract and composite representation. In an image recognition application, the raw input may be a matrix of pixels; the first representational layer may abstract the pixels and encode edges; the second layer may compose and encode arrangements of edges; the third layer may encode a nose and eyes; and the fourth layer may recognize that the image contains a face. ",
+    "difficulty": "Difficult",
+    "price": "78",
+    "Author": " Arhad Wasi "
+  },
+  {
+    "packageType": "Machine Learning",
+    "coursecode":"3",
+    "title": "Crack machine learning with python in 15 days",
+    "description": "Machine learning tasks are classified into several broad categories. In supervised learning, the algorithm builds a mathematical model from a set of data that contains both the inputs and the desired outputs. For example, if the task were determining whether an image contained a certain object, the training data for a supervised learning algorithm would include images with and without that object (the input), and each image would have a label (the output) designating whether it contained the object.",
+    "difficulty": "Difficult",
+    "price": "40",
+    "Author": "Aushk Shety"
+  },
+  {
+    "packageType": "Machine Learning",
+    "coursecode":"4",
+    "title": "Cracking finance with ML",
+    "description": "In recent years, hedge funds have increasingly moved away from traditional analysis methods. Instead, they have adopted machine learning algorithms for predicting fund trends. Using machine learning, fund managers can identify market changes earlier than is possible with traditional investment models.",
+    "difficulty": "Difficult",
+    "price": "34",
+    "Author": "Anahb Iani BN"
+  },
+  {
+    "packageType": "Machine Learning",
+    "coursecode":"5",
+    "title": "Explore neural networks through machine learning with real examples",
+    "description": "A neural network is a network or circuit of neurons, or in a modern sense, an artificial neural network, composed of artificial neurons or nodes.[1] Thus a neural network is either a biological neural network, made up of real biological neurons, or an artificial neural network, for solving artificial intelligence (AI) problems. The connections of the biological neuron are modeled as weights. A positive weight reflects an excitatory connection, while negative values mean inhibitory connections.",
+    "difficulty": "Medium",
+    "price": "50",
+    "Author": "Binu Dilln BV"
+  },
+  {
+    "packageType": "AWS Architect",
+    "coursecode":"6",
+    "title": "AWS bible for beginners & experts",
+    "description": "The AWS technology is implemented at server farms throughout the world, and maintained by the Amazon subsidiary. Fees are based on a combination of usage, the hardware/OS/software/networking features chosen by the subscriber, required availability, redundancy, security, and service options. Subscribers can pay for a single virtual AWS computer, a dedicated physical computer, or clusters of either. As part of the subscription agreement, Amazon provides security for subscribers' system.",
+    "difficulty": "Medium",
+    "price": "55",
+    "Author": "Jackie Shoff M "
+  },
+  {
+    "packageType": "AWS Architect",
+    "coursecode":"7",
+    "title": "AWS for DevOps professionals and infrastructure support",
+    "description": "AWS provides a set of flexible services designed to enable companies to more rapidly and reliably build and deliver products using AWS and DevOps practices. These services simplify provisioning and managing infrastructure, deploying application code, automating software release processes, and monitoring your application and infrastructure performance.",
+    "difficulty": "Medium",
+    "price": "51",
+    "Author": "Johny Lver"
+  },
+  {
+    "packageType": "AWS Architect",
+    "coursecode":"8",
+    "title": "AWS Certified Solutions Architect - A top to bottom guide",
+    "description": "The AWS technology is implemented at server farms throughout the world, and maintained by the Amazon subsidiary. Fees are based on a combination of usage, the hardware/OS/software/networking features chosen by the subscriber, required availability, redundancy, security, and service options. Subscribers can pay for a single virtual AWS computer, a dedicated physical computer, or clusters of either. As part of the subscription agreement, Amazon provides security for subscribers' system.",
+    "difficulty": "Difficult",
+    "price": "225",
+    "Author": "Kaki Koelin"
+  },
+  {
+    "packageType": "MicroService Architect",
+    "coursecode":"9",
+    "title": "Avila Beach Hot springs",
+    "description": "Chumash have occupied Avila Beach for centuries, but it wasn't until the late 19th century that the rest of California realized its ideal climate, proximity to the ocean and artesian springs made Avila Beach an ideal resort town. The hot springs in Avila are really unique, creating pools that hover at a natural 104 degrees, which draws aficionados from far and wide. \nYou'll stay at the historic Avila Hot Springs Resort, situated between oak-covered foothills that keep the morning fog away and make a natural year round air conditioner, which will enhance a nice morning, afternoon, or evening swim. This package include a two night stay in a private cabin above the springs, and a 3 day pass to the fresh water pool and 400 sq feet hot mineral pool. Optional day trips include two hour kayaking tours (we love the Cave Expedition) from Central Coast Kayaks and docent-led trips from the Point San Luis Lighthouse down the Pechos Trail.",
+    "difficulty": "Easy",
+    "price": "1000",
+    "Author": "Hot springs, hiking, cabin, beach, kayaking, hiking"
+  },
+  {
+    "packageType": "MicroService Architect",
+    "coursecode":"10",
+    "title": "Matilija Hot springs",
+    "description": "Matilija Hot Springs has long been known to locals in this small community as a place to take a hot midnight dip in the middle of winter or a leisurely summer day, leaping between the sulfur pools and the cold creek nearby. Matilija Sanctuary, however, contains private springs that can only be accessed by special guests, including members of Explore California. Choose from a 3 or 4 day stay. Besides the complimentary nightly fireside music and the on-site crafts lodge other activities include day trips to downtown Ojai for shopping in it's Spanish revival style arcade and hiking in the East End, an Eden-esque experience if we've ever had one.",
+    "difficulty": "Easy",
+    "price": "1000",
+    "Author": "Hot springs, Ojai, hiking, swimming, rustic, nature"
+  },
+  {
+    "packageType": "MicroService Architect",
+    "coursecode":"11",
+    "title": "Paso Robles Artesian Spring",
+    "description": "Situated in the midst of rolling hills and vineyards, Paso Robles has been renowned for thermal springs water. The Salinan Indians, the most historical inhabitants of the area, knew this area as “The Springs” and found relief from various ailments in the therapeutic waters, which arise naturally at 117 degrees. At River Oaks Hot Springs Spa, you have access to these springs while surrounded by a world-class spa facility. Choose from a private indoor, open-air tub or an outdoor hillside tub, and select from among their massage or face and skin therapy services. Spend the night at the Orchard Hill Bed & Breakfast and spend the following day wandering the wineries or antiquing in the quaint downtown.",
+    "difficulty": "Easy",
+    "price": "750",
+    "Author": "Hot springs, Spa treatment, Bed and breakfast"
+  },
+  {
+    "packageType": "Devops",
+    "coursecode":"12",
+    "title": "Amgen Tour of California Special",
+    "description": "The AMGEN Tour of California is the largest cycling event in the US, over 750 miles and includes cycling world champions, Tour de France competitors, and Olympic athletes. It's an 8-leg tour, designed to mimic the various conditions in the Tour de Trance, and Explore California has the unique pleasure of being able to offer 50 of our members spots behind the peloton, or main group of racers, on two legs of the two. This is a special, one-time only offer. Customers should be in physical and mental shape to complete this two-week ride. Be prepared to complete a detailed questionnaire about skill level and any existing health problems.",
+    "difficulty": "Difficult",
+    "price": "6000",
+    "Author": "Cycling, Sports,"
+  },
+  {
+    "packageType": "Devops",
+    "coursecode":"13",
+    "title": "Monterey to Santa Barbara Tour",
+    "description": "This tour takes you along the best spots on the California coastline, including overnight stops in Carmel, Big Sur, San Luis Obispo, Lompoc and Santa Barbara. Cyclists of all abilities can join this scenic tour of the Pacific coast. Side trips include the famous 17 Mile Drive in cypress studded Carmel, and visits to wineries around Paso Robles and Solvang, many featured in the movie Sideways. If you tire along the way, take a break in one of our luxury equipped companion cars, which follows riders along every leg of the trip. Dine with the group or request private reservations at any one of the fining dining spots our reservationists recommend. Private accommodations are provided for the overnight stays. Breaks before and after lunch provide plenty of time for sightseeing and shopping.",
+    "difficulty": "Medium",
+    "price": "2500",
+    "Author": "Cycling"
+  },
+  {
+    "packageType": "Devops",
+    "coursecode":"14",
+    "title": "Devops: My Way",
+    "description": "Cycling is a fantastic way to see California and Devops: My Way is a customizable package that celebrates that fact. Guided and unguided routes are available and, as with all our packages, we tailor the outings to your comfort and skill level. This is a great package for families who want to see California outside of a car (and traffic!). The most popular variety is the 6-day Monterey to Santa Barbara tour but this year only, we’re also offering a special package this year that allows serious cyclists to follow behind a competitor in the AMGEN bike race, a race that mimics the conditions in the Tour de France. Spots are limited so call now to reserve your seat now!\nChoose your level of experience, desired distance, and location and we'll give you a call back to plot your route and confirm your reservation.",
+    "difficulty": "Varies",
+    "price": "1200",
+    "Author": "Cycling"
+  },
+  {
+    "packageType": "Cloud Automation Engineer",
+    "coursecode":"15",
+    "title": "2 Days Adrift the Salton Sea",
+    "description": "The Salton Sea is saltier than the Pacific, an unusual feat for inland body of water. And even though its salinity has risen over the years, due in part to lack of outflows and pollution from agricultural runoff, it has attracted a small, but dedicated population. The sea itself offers recreational opportunities including boating, camping, off-roading, hiking, use of personal watercraft, photography and bird watching. The sea has been termed a \"crown jewel of avian biodiversity,\" being a major resting stop on the Pacific Flyway, a migratory path for birds. 2 Days Adrift the Salton Sea includes two nights accommodations at the Bombay Beach Inn, boat rental at the Salton City Harbor, and a guided fishing tour.",
+    "difficulty": "Easy",
+    "price": "350",
+    "Author": "Boating, Fishing, Bird watching, Desert, Sea, Eco-Tour"
+  },
+  {
+    "packageType": "Cloud Automation Engineer",
+    "coursecode":"16",
+    "title": "Mojave to Malibu",
+    "description": "Only experienced road hogs need apply! The tour group will meet at Old Glory Motorcycle Company in Lancaster, CA to retrofit and get ready for the day's ride. The pack takes the Angeles Crest Highway, through Angeles National Forest, stopping at biker-friendly Newcomb Ranch for drinks and grub. Winding your way down through L.A., you'll take a side trip through Griffith Park, home of the observatory and that classic scene from Rebel without a Cause. After cruising Hollywood Boulevard, the tour makes its way through Santa Monica, through Topanga Canyon and ends in Malibu, where you can grab world-class seafood and burgers from the roadside diner, Paradise Cove Beach Cafe.",
+    "difficulty": "Difficult",
+    "price": "200",
+    "Author": "Motorcycle, Cycling, Mountains, Desert, Sea"
+  },
+  {
+    "packageType": "Cloud Automation Engineer",
+    "coursecode":"17",
+    "title": "Joshua Tree: Best of the West Tour",
+    "description": "Joshua Tree: Best of the West Tour is a day-long adventure through this grandiose national park and a snippet of wild west history from the back of an open-air all-terrain vehicle. This is a great opportunity for photo hunters to shots of the coyotes, eagles and Big Horn sheep native to the area. Multiple stops includes a visit to the Rock Gardens, a 200 million year old legacy of the San Andreas Fault. The tour stops last at Pioneertown, originally built as a motion picture set in the 1940s, but has since becomes part of California's history in its own right, as a living signpost of our fascination with the legends of the Wild West. Enjoy mesquite smoked barbeque and marvel at the \"bullet holes\" and functional hitching posts. The tour ends with a stop at Sunset Point, where on a clear day, you can see all the way to Mexico.",
+    "difficulty": "Easy",
+    "price": "150",
+    "Author": "Hiking, Desert, Sea, California History, Theme park"
+  },
+  {
+    "packageType": "Front-end developer",
+    "coursecode":"18",
+    "title": "Kids L.A. Tour",
+    "description": "Kids L.A. Tour is a 3-day jam-packed, fun-filled tour of the best the city has to offer- for any age. The first day includes admission to the L.A. Zoo, home to over 1,100 animals, and its companion park, the Long Beach Aquarium. After the little ones are tuckered out, take them back to the Disneyland Hotel in Anaheim so they can rest up for the next two days at the world famous Disneyland Resort. Park Hopper tickets allow you to go between Disneyland and the California Adventure Park, and with Express Passes, you never have to wait in line. Disneyland Hotel guests get exclusive use of the monorail that surrounds the park, and perfect views of the nightly fireworks shows from the hotel. Enjoy meals from any of the Disneyland cafes or leave the kids for an evening and enjoy a meal at one of Downtown Disney's more upscale restaurants. This is a family vacation- California style.",
+    "difficulty": "Easy",
+    "price": "1200",
+    "Author": "Kid friendly, Museum,  Animals, Theme park"
+  },
+  {
+    "packageType": "Front-end developer",
+    "coursecode":"19",
+    "title": "Islands of the Blue Dolphins Tour",
+    "description": "The Island of the Blue Dolphins Tour starts with a ferry from beautiful Ventura to the Channel Islands, home of the \"Lone Woman of San Nicolas Island,\" who was the inspiration for the Newbery Medal winning children's book. Your Island Packers ferry guide will point out local fish and fauna, and the right time of year, you might even catch a glimpse of a dolphin or a blue whale. Once onshore, hike and look out for the herd of wild buffalo housed on Santa Catalina. Also keep an eye peeled for the endangered island fox. Enjoy a kid-friendly picnic lunch prepared by the Avalon Beach Cafe at the botanical gardens or climb to one of the islands' high points and survey the California coast from the perspective of the heroine. On the trip back to land, the ferry stops in Santa Barbara, and you'll have the chance to visit the famous mission where Karana lived after being rescued. One last stop for salt taffy and knick knacks at the pier and the ferry will deliver you safely back to Ventura, with your own copy of the book to take home and read as a family.",
+    "difficulty": "Easy",
+    "price": "200",
+    "Author": "California History, Kid friendly, Museum, Hiking, Animals"
+  },
+  {
+    "packageType": "Front-end developer",
+    "coursecode":"20",
+    "title": "Eco-Tour",
+    "description": "At Explore California, we strive to have all our tours be ecologically sound, by serving organic food, using low emissions vehicles, and working with small businesses, but this tour is designed specifically to explore why we take those measures. This 3-day trip has families in mind, but is great for any outdoor enthusiast/activist. The first day, you'll kayak the creeks surrounding Lake Casitas in Ventura County, all the way to the ocean. A victim of drought and mismanagement, it is now federally protected and you can watch it coming back to life. The first night will be spent at the Ojai Foundation, in your choice of a yurt or cabin. The second day is spent on an organic farm in Ojai, California, touring the grounds and learning about organic farming methods. Spend a night in town at a kid and pet friendly bed and breakfast. The third day, you'll travel up the coast to Santa Barbara to visit the botanical gardens and Natural History Museum and learn about California's endangered species. Before you leave, take a guided hiked of the foothills above the coast. If nothing else, the views will leave a lasting impression on you of just how valuable the environment is.",
+    "difficulty": "Medium",
+    "price": "750",
+    "Author": "Boating, Farming, Animals, California History, Museum, Eco Tour"
+  },
+  {
+    "packageType": "Back-end developer",
+    "coursecode":"21",
+    "title": "Endangered Species Expedition",
+    "description": "Taking a cue from the Nature Conservancy, we’ve selected 15 state parks and preserves that are shining examples of conservation in action. Just one example is the Guadalupe-Nipomo Dunes Preserve, 18 miles of Earth's most biodiversity coastal dune-lagoon ecosystem. Activities include camping, hiking, horseback riding, boating and bird watching. The tour package includes 2 nights of camping and 3 days admission to the park of your choice. We can also arrange for RV rentals. This is a great package for families who want to pass down a great experience and an education to the next generation, while participating in preserving a part of their future.",
+    "difficulty": "Medium",
+    "price": "600",
+    "Author": "Eco Tour, Camping, Animals, Boating, Hiking"
+  },
+  {
+    "packageType": "Back-end developer",
+    "coursecode":"22",
+    "title": "Fossil Tour",
+    "description": "Hunting for trilobites? Searching for prehistoric shark teeth? We can show you where to find them! The Fossil Tour explores not just the history, but the ancient past of what we know as California. In our own backyard, we have access to a fossil record hundreds of millions of years old. Trilobites are extinct marine arthropods (think  lobster) that lived in the part of the Pacific that is now the Mojave Desert. With an experienced hunter, you'll be bussed out to search for these little desert \"crabs\" and visit the Calico City dig, site of a disputed findings of early man living in California to 100,000 years go. Paleontology buffs will be fascinated by the remains of this dig, presided over by none other than Louis Leaky himself. Enjoy an \"on the dig\" meal and then return to Los Angeles for a night at the Cinema Suites bed and breakfast, a short walk from the world famous La Brea Tar Pits. Spend the second day touring the museum's fossil collection, watch archeologists at work, an wonder at the still active pits of tar that trapped and preserved hundreds of animals. After this tour, you'll start to wonder what you can uncover in your own backyard!",
+    "difficulty": "Medium",
+    "price": "500",
+    "Author": "Eco Tour, California History, Animals, Museum"
+  },
+  {
+    "packageType": "Back-end developer",
+    "coursecode":"23",
+    "title": "Coastal Experience",
+    "description": "For 25 years, the Monterey Bay Aquarium has aspired to protect oceans for future generations by inspiring young and old with the oceans' beauty and wonder. Explore California's Coastal Experience Tour takes you on a behind the scenes tour of this world famous aquarium and then on a jaunt farther south to another aquatic eco-system, the Channel Islands. At the aquarium, take a private tour and learn how the tanks are maintained, watch feedings, view the newest specimens before they are available for public view and interact with the staff. Afterwards, enjoy the rest of the exhibits, like the Secret Lives of Seahorses, and visit the shark tank, the sea otter habitat, and  the kelp forests. Next, hop on a cruise from Monterey to the Channel Islands. The boat docks outside Santa Barbara and you'll take a small ferry to the islands. Try snorkeling in the reefs, or take a whale watching side trip and experience the life aquatic a natural.",
+    "difficulty": "Easy",
+    "price": "1500",
+    "Author": "Eco Tour, California History, Animals, Boating, Hiking"
+  },
+  {
+    "packageType": "Python Developer",
+    "coursecode":"24",
+    "title": "Mammoth Mountain Adventure",
+    "description": "The Mammoth Mountain Adventure is 4 days of wild, winter fun. Take a lesson the first day from the Ski & Snowboard School, led by grizzly pro instructors. This tour includes a 4 full day lift pass, so when you're ready, you can take on any one of the 150 trails over Mammoth's epic terrain. Equipment rentals are included, so you can pack light. Need a break? Take a scenic gondola to the summit of Mammoth Mountain, 11,000 feet in all, or take a Snowcat tour of the backcountry. Enjoy dinners at the Mammoth Mountain Inn, a snowball's throw from the main lodge, where you'll also be provided 3 night's complimentary lodging. This package is available October through early June, but lift tickets are rare, so book now.",
+    "difficulty": "Difficult",
+    "price": "800",
+    "Author": "Skiing, Snowboarding, Cabin, Hiking, Mountains"
+  },
+  {
+    "packageType": "Python Developer",
+    "coursecode":"25",
+    "title": "Mountain High Lift-off",
+    "description": "Mountain High is only an hour from Los Angeles, but once you arrive, you'll feel like you're in another world. The Mountain High Lift-off is the weekender's ski spectacular, perfect for couples who need a retreat, featuring two days of premium runs with an all access Express Lift ticket, available exclusively through Explore California. No more waiting in line and guaranteed admittance even when the resort sells out. Accommodations are provided at the Larks Nest Cabin, a vintage charmer featuring a stone fireplace, clawfoot tub, and full kitchen. Dine at the Wrightwood Inn's cozy mountain pub, or grab a sandwich from the Evergreen Cafe and Raccoon Saloon. Equipment rental and transportation from Los Angeles International Airport is included.",
+    "difficulty": "Difficult",
+    "price": "800",
+    "Author": "Skiing, Snowboarding, Cabin, Hiking, Mountains"
+  },
+  {
+    "packageType": "Python Developer",
+    "coursecode":"26",
+    "title": "Ski Lake Tahoe",
+    "description": "Ski Lake Tahoe takes you on a 5 day, 4 night tour of the best slopes this side of Colorado. Included are 5 day lift tickets at Squaw Valley Resort, host of 1960 Winter Olympics, and home to over 170 runs on over 4000 acres of wilderness. Snow bunnies will rejoice but this tour is perfect for families and \"town bunnies\" alike. Accommodations are provided at the base of the slopes at The Village at Squaw Valley. Après-ski, enjoy relaxing in your private condo, or take advantage of the billiards room, the movie screening area, or one of the outdoor hot tubs. The Village has over 30 shops, restaurants and bars, offering everything from contemporary Irish cuisine to sushi. Enjoy wine tasting or luxuriate at the Trilogy Spa. Kids can try tubing, take on the climbing wall, or try the Skyjump, bouncing 25 feet in the air on giant trampolines.",
+    "difficulty": "Difficult",
+    "price": "1100",
+    "Author": "Skiing, Snowboarding, Cabin, Hiking, Mountains"
+  },
+  {
+    "packageType": "Java Developer",
+    "coursecode":"27",
+    "title": "Olive Garden Tour",
+    "description": "Ojai Olive is a small, family-run olive orchard, which has been pressing their own special, fragrant olive oil for over 10 years. Immerse yourself in this ancient practice, which is both an art and an edible. The Ojai Olive tour offers begins outside with the history of the grove, an explanation of the olive varieties, their maturing process, the harvesting, a visit to the tree nursery, and more. They then take you inside the barn and explain the process of making the olive oil. Lastly, stop in the tasting room and find out how different curing and separation processes can result in such unique flavors: citrus, hints of pepper, grass. Take a break with a picnic lunch provided by Azu restaurant, makers of authentic Spanish style tapas with a California flair. Included are brioche with olive tapenade, featuring black and green olives from Ojai Olive and prepared by the chef especially for this tour.",
+    "difficulty": "Easy",
+    "price": "75",
+    "Author": "Tasting, Olive Oil, California History, Picnic, Nature, Farming"
+  },
+  {
+    "packageType": "Java Developer",
+    "coursecode":"28",
+    "title": "Oranges & Apples Tour",
+    "description": "Oak Glen is a tiny hamlet located in the foothill of the San Bernadino Mountain, only 90 minutes from LA, but the climate makes it perfect for stone fruits, such as pears, peaches, and nectarines. However, the jewel of this town is the apple. You'll start the day at Riley's Apple Farm, where you can pick and press as many apples as you can carry. Take a hayride around the farm property and, a fun treat for kids, visit the barn animals. Feast on apple-wood smoked BBQ featuring tri-tip, ribs and chicken apple sausage. Lodging is provided at the quaint Craftin Hills Inn. The next day, it's a short backwoods drive to Ojai, CA, where you'll receive a private tour and picnic lunch at the Churchill Brenneis Orchard. Owners Jim Churchill and Lisa Brenneis are knowledgeable and warm, and you'll leave with a glow and the most delicious tiny tangerines you've ever tasted. Spend a restful night at the Lavender Inn in beautiful downtown Ojai before returning to the regular pace.",
+    "difficulty": "Easy",
+    "price": "350",
+    "Author": "Tasting, Olive Oil, California History, Picnic, Nature, Farming"
+  },
+  {
+    "packageType": "Java Developer",
+    "coursecode":"29",
+    "title": "Hot Salsa Tour",
+    "description": "The Hot Salsa Tour is scheduled around the preeminent salsa event in the country, the annual Oxnard Salsa Festival. Enjoy spicy food, hot music and Oxnard’s cool ocean breezes in this two-day celebration of everything salsa- the food, the music and the dance. Enjoy salsa tasting from dozens of competitors- or enter your own concoction in the amateur competition. Flavors range from fresh & fruity, hot & smoky, sweet & spicy. Shop from dozens of boutique vendors. Take a seat, or shake a leg, in front of three stages, featuring everything from jazz bands to rockabilly. The second day you'll really be prepared to tango, after taking an evening salsa lesson from the Arthur Murray Dance Studio. If things get too hot, you can cool your heels at the luxurious Mandalay Beach Hotel and Resort and refresh yourself by the pool or take advantage of the private beach access. This yearly special is something no hot tamale wants to miss!",
+    "difficulty": "Easy",
+    "price": "400",
+    "Author": "Tasting, Oranges, Apples, California History, Picnic, Nature, Farming"
+  },
+  {
+    "packageType": "Java Developer",
+    "coursecode":"30",
+    "title": "A Week of Wine",
+    "description": "Immerse yourself in the culture and lifestyle of a California winery. Spend 5 days in your private guest villa at the Stockbridge Winery, located in scenic Sonoma. You'll spend your days wandering the vineyards, touring the presses and cellars, and assisting staff in making America's favorite wine. Enjoy Tuscan-style meals served al fresco, overlooking the gorgeous countryside. Day trips include dinner in Sausalito, hiking in the redwood forests, and lunch in downtown San Francisco.",
+    "difficulty": "Easy",
+    "price": "850",
+    "Author": "Winery, hiking, relaxing, cooking, Napa Valley"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "code": "1",
+    "title": "Equip yourself with Descriptive and Inferential Statistics for Machine Learning",
+    "Popularity": "78",
+    "NumberOfOpening": "400"
+  },
+  {
+    "code": "2",
+    "title": "Baby Steps with Deep learning for ML",
+    "Popularity": "75",
+    "NumberOfOpening": "400"
+  },
+  {
+    "code": "3",
+    "title": "Crack machine learning with python in 15 days",
+    "Popularity": "65",
+    "NumberOfOpening": "400"
+  },
+  {
+    "code": "4",
+    "title": "Cracking finance with ML",
+    "Popularity": "85",
+    "NumberOfOpening": "400"
+  },
+  {
+    "code": "5",
+    "title": "Explore neural networks through machine learning with real examples",
+    "Popularity": "55",
+    "NumberOfOpening": "400"
+  },
+  {
+    "code": "6",
+    "title": "AWS bible for beginners & experts",
+    "Popularity": "75",
+    "NumberOfOpening": "700"
+  },
+  {
+    "code": "7",
+    "title": "AWS for DevOps professionals and infrastructure support",
+    "Popularity": "75",
+    "NumberOfOpening": "700"
+  },
+    {
+    "code": "8",
+    "title": "AWS Certified Solutions Architect - A top to bottom guide",
+    "Popularity": "75",
+    "NumberOfOpening": "700"
+  }
+]
