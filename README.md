@@ -1,7 +1,8 @@
 # autodockerdeployinfra
 
 This project is my memory note to deploy 4 containers with node server and flask api website. It is very good infra for training docker skills, automation with bash script and postman requests. 
-UPDATE - Now this repo contains a full functional docker-compose automation. Just run "docker-compose up -d"
+
+#UPDATE - Now this repo contains a full functional docker-compose automation. Just run "docker-compose up -d". Nothing more.
 
 ![diagram](https://user-images.githubusercontent.com/20565821/129620197-abfafe9e-94e9-4825-bebc-efd0076eda84.jpg)
 
