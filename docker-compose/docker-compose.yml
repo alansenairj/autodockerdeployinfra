@@ -1,0 +1,55 @@
+version: "3.7"
+
+networks:
+    prodnet:
+       ipam:
+          config:
+              - subnet: 172.19.0.0/18
+                gateway: 172.19.0.1
+
+services:
+
+    career: 
+        image: alanaguinaga/career:latest
+        container_name: career
+        ports: 
+          - "8080:8080"
+        networks:
+           prodnet:
+             ipv4_address: 172.19.0.5
+        command: java -jar /career/app/careerws/jar/career-path-0.0.1-SNAPSHOT.jar
+   
+  
+    webapp : 
+        image: alanaguinaga/webapp:latest
+        restart: always
+        container_name: webapp 
+        networks:
+           prodnet:
+             ipv4_address: 172.19.0.3
+        ports: 
+            - "3000:3000"
+        command: node /app/app/app.js
+
+    api : 
+        image: alanaguinaga/api:latest
+        container_name: api 
+        networks:
+          prodnet:
+            ipv4_address: 172.19.0.4
+        ports: 
+            - "8085:8085"
+        command: python3 api.py
+
+            
+    market : 
+        image: alanaguinaga/market:latest
+        container_name: market 
+        networks:
+          prodnet:
+            ipv4_address: 172.19.0.6
+        ports: 
+            - "8082:8082"
+        command: java -Dserver.port=8082 -jar /market/app/mktws/jar/mkt-sentiment-0.0.1-SNAPSHOT.jar     
+    
+   
